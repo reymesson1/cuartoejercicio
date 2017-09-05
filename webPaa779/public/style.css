@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font: 16px/1 sans-serif;
+}
+menu ul{
+  margin: 0;
+  padding: 0;
+}
+menu li {
+  display: inline-block;
+  padding: 5px;
+}
+a.active {
+  color: #444;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #777;
+}
+header {
+  padding: 10px;
+  background-color: #333;
+  color: #ccc;
+  font-size: 20px;
+  font-weight: bold;
+}
+menu {
+  background-color: #ccc;
+  padding: 5px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.tile-progress {
+background-color: #303641;
+color: #fff;
+}
+.tile-progress {
+background: #00a65b;
+color: #fff;
+margin-bottom: 20px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-background-clip: padding-box;
+-moz-background-clip: padding;
+background-clip: padding-box;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+.tile-progress .tile-header {
+padding: 15px 20px;
+padding-bottom: 40px;
+}
+.tile-progress .tile-progressbar {
+height: 2px;
+background: rgba(0,0,0,0.18);
+margin: 0;
+}
+.tile-progress .tile-progressbar span {
+background: #fff;
+}
+.tile-progress .tile-progressbar span {
+display: block;
+background: #fff;
+width: 0;
+height: 100%;
+-webkit-transition: all 1.5s cubic-bezier(0.230,1.000,0.320,1.000);
+-moz-transition: all 1.5s cubic-bezier(0.230,1.000,0.320,1.000);
+-o-transition: all 1.5s cubic-bezier(0.230,1.000,0.320,1.000);
+transition: all 1.5s cubic-bezier(0.230,1.000,0.320,1.000);
+}
+.tile-progress .tile-footer {
+padding: 20px;
+text-align: right;
+background: rgba(0,0,0,0.1);
+-webkit-border-radius: 0 0 3px 3px;
+-webkit-background-clip: padding-box;
+-moz-border-radius: 0 0 3px 3px;
+-moz-background-clip: padding;
+border-radius: 0 0 3px 3px;
+background-clip: padding-box;
+-webkit-border-radius: 0 0 3px 3px;
+-moz-border-radius: 0 0 3px 3px;
+border-radius: 0 0 3px 3px;
+}
+.tile-progress.tile-red {
+background-color: #f56954;
+color: #fff;
+}
+.tile-progress {
+background-color: #303641;
+color: #fff;
+}
+.tile-progress.tile-blue {
+background-color: #0073b7;
+color: #fff;
+}
+.tile-progress.tile-aqua {
+background-color: #00c0ef;
+color: #fff;
+}
+.tile-progress.tile-green {
+background-color: #00a65a;
+color: #fff;
+}
+.tile-progress.tile-cyan {
+background-color: #00b29e;
+color: #fff;
+}
+.tile-progress.tile-purple {
+background-color: #ba79cb;
+color: #fff;
+}
+.tile-progress.tile-pink {
+background-color: #ec3b83;
+color: #fff;
+}
+
+.one, .two, .three{
+    position:absolute;
+	margin-top:-10px;
+	z-index:1;
+	height:40px;
+	width:40px;
+	border-radius:25px;
+	
+}
+.one{
+	left:25%;
+}
+.two{
+	left:50%;
+}
+.three{
+	left:75%;
+}
+.primary-color{
+	background-color:#4989bd;
+}
+.success-color{
+	background-color:#5cb85c;
+}
+.danger-color{
+	background-color:#d9534f;
+}
+.warning-color{
+	background-color:#f0ad4e;
+}
+.info-color{
+	background-color:#5bc0de;
+}
+.no-color{
+	background-color:inherit;
+}
+
+/* Credit to bootsnipp.com for the css for the color graph */
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
