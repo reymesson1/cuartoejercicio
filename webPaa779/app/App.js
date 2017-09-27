@@ -20,8 +20,6 @@ import Timesheet from './Business/Timesheet/Timesheet';
 
 import { Panel, Button } from 'react-bootstrap';
 
-import createBrowserHistory from 'history/lib/createBrowserHistory';
-
 class App extends Component{
     
     render(){
@@ -39,7 +37,7 @@ class App extends Component{
 }
 
 ReactDOM.render(
-                <Router history={createBrowserHistory} >
+                <Router >
                     <Route path="/" component={App}>
                     <IndexRoute component={Dashboard}/>
                     <Route path="invoice" component={InvoiceContainer}/>
